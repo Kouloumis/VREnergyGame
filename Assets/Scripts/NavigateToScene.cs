@@ -8,6 +8,7 @@ public class NavigateToScene : MonoBehaviour {
 	[SerializeField]
 	string SceneToNavigateTo;
 
+
 	public void Navigate()
 	{
 		SceneManager.LoadScene(SceneToNavigateTo);
