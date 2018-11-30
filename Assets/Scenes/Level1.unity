@@ -1156,9 +1156,10 @@ GameObject:
   - component: {fileID: 1715089048}
   - component: {fileID: 1715089047}
   - component: {fileID: 1715089052}
+  - component: {fileID: 1715089053}
   - component: {fileID: 1715089051}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: HappyCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1191,7 +1192,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1242,7 +1243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ebb82e5a24df144dbfdb5338a363cd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 15
 --- !u!54 &1715089052
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1258,6 +1259,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1715089053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1715089046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c133e9525385d43a43126c0037061d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Particlez: {fileID: 1731936656754428, guid: 4873b02dfe62c5a4a91ba51023b2ef5b, type: 2}
+  HappyCube: {fileID: 1715089046}
 --- !u!1 &1903179830
 GameObject:
   m_ObjectHideFlags: 0
