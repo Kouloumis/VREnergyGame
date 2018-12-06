@@ -7,10 +7,14 @@ public class Particles : MonoBehaviour {
     public GameObject Particlez;
     public GameObject HappyCube;
 
+    public GameObject Troll;
+
 	// Use this for initialization
 	void Start () {
-		
-	}
+
+        Troll.SetActive(false);
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -22,6 +26,10 @@ public class Particles : MonoBehaviour {
             Instantiate(Particlez, HappyCube.transform.position, Quaternion.identity);
         }
 
+        if (Input.GetKeyDown(KeyCode.Joystick1Button1))
+        {
+            Troll.SetActive(true);
+        }
 
     }
 
