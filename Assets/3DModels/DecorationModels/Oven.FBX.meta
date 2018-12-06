@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: cf04471217610dc47a22ecfe2247a0a0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box013
+    100002: buttons006
+    100004: buttons007
+    100006: buttons008
+    100008: buttons009
+    100010: buttons010
+    100012: buttons011
+    100014: Cylinder005
+    100016: Cylinder006
+    100018: Cylinder007
+    100020: Cylinder008
+    100022: //RootNode
+    100024: top001
+    400000: Box013
+    400002: buttons006
+    400004: buttons007
+    400006: buttons008
+    400008: buttons009
+    400010: buttons010
+    400012: buttons011
+    400014: Cylinder005
+    400016: Cylinder006
+    400018: Cylinder007
+    400020: Cylinder008
+    400022: //RootNode
+    400024: top001
+    2100000: monitor
+    2100002: sink
+    2100004: red
+    2100006: 10 - Default
+    2100008: glassMicrowave
+    2100010: 03 - Default
+    2300000: Box013
+    2300002: buttons006
+    2300004: buttons007
+    2300006: buttons008
+    2300008: buttons009
+    2300010: buttons010
+    2300012: buttons011
+    2300014: Cylinder005
+    2300016: Cylinder006
+    2300018: Cylinder007
+    2300020: Cylinder008
+    3300000: Box013
+    3300002: buttons006
+    3300004: buttons007
+    3300006: buttons008
+    3300008: buttons009
+    3300010: buttons010
+    3300012: buttons011
+    3300014: Cylinder005
+    3300016: Cylinder006
+    3300018: Cylinder007
+    3300020: Cylinder008
+    4300000: buttons006
+    4300002: buttons007
+    4300004: buttons008
+    4300006: buttons009
+    4300008: buttons010
+    4300010: Box013
+    4300012: Cylinder005
+    4300014: Cylinder006
+    4300016: Cylinder007
+    4300018: Cylinder008
+    4300020: buttons011
+    6400000: Box013
+    6400002: buttons006
+    6400004: buttons007
+    6400006: buttons008
+    6400008: buttons009
+    6400010: buttons010
+    6400012: buttons011
+    6400014: Cylinder005
+    6400016: Cylinder006
+    6400018: Cylinder007
+    6400020: Cylinder008
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10 - Default
+    second: {fileID: 2100000, guid: 83d083b65b228db4993b24a78e46b08e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
