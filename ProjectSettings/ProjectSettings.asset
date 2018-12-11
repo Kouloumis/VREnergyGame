@@ -650,9 +650,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: e4c1324b-d647-4feb-98b3-fbf9856c2dce
+  cloudProjectId: 6f8e9c70-dc26-4739-a3e7-058ef67e6b8c
   projectName: VR Energy Game
-  organizationId: antkoul71
+  organizationId: metalinvador
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
