@@ -13,8 +13,11 @@ public class MaterialChanger : MonoBehaviour {
 
     void OnCollisionStay(Collision collision)
     {
-        GetComponent<Renderer>().material = MaterialChange;
+        if(collision.gameObject.name == "Player") {
 
+            GetComponent<Renderer>().material = MaterialChange;
+
+        }
     }
 
     void OnCollisionExit(Collision collision)
