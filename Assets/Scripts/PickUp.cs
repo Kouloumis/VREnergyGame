@@ -13,8 +13,10 @@ public class PickUp : MonoBehaviour {
 	public GameObject tempParent;
 	public bool isHolding = false;
 
-	// Use this for initialization
-	void Start () {
+    private bool trigger = false;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -33,11 +35,12 @@ public class PickUp : MonoBehaviour {
 			item.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 			item.transform.SetParent(tempParent.transform);
 
-			if (Input.GetMouseButtonDown(1))
+			if (Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.Joystick1Button8))
 			{
 				item.GetComponent<Rigidbody>().AddForce(tempParent.transform.forward * throwForce);
 				isHolding = false;
 			}
+            
 		}
 		else
 		{
@@ -46,20 +49,25 @@ public class PickUp : MonoBehaviour {
 			item.GetComponent<Rigidbody>().useGravity = true;
 			item.transform.position = objectPos;
 		}
-	}
 
-	void OnMouseDown()
-	{
-		if (distance <= 1f)
-		{
-			isHolding = true;
-			item.GetComponent<Rigidbody>().useGravity = false;
-			item.GetComponent<Rigidbody>().detectCollisions = true;
-		}
-	}
-	void OnMouseUp()
-	{
-		isHolding = false;
-	}
+        //Holding the item
+
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Joystick1Button4)) {
+            if (distance <= 1f)
+            {
+                isHolding = true;
+                item.GetComponent<Rigidbody>().useGravity = false;
+                item.GetComponent<Rigidbody>().detectCollisions = true;
+            }
+        }
+
+        //Releasing the item
+        if (Input.GetMouseButtonUp(0) || Input.GetKeyUp(KeyCode.Joystick1Button4))
+        {
+            {
+                isHolding = false;
+            }
+        }
+    }
 
 }
