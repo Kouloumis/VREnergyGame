@@ -1,0 +1,669 @@
+fileFormatVersion: 2
+guid: a83fa77d75399d140b2dbfd5d0d438b3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bath
+    100002: bath001
+    100004: bath002
+    100006: bed low
+    100008: bed002
+    100010: bed003
+    100012: //RootNode
+    100014: bonus001
+    100016: Box006
+    100018: Box007
+    100020: Box008
+    100022: Box009
+    100024: Box010
+    100026: Box012
+    100028: Box013
+    100030: Box014
+    100032: Box015
+    100034: Box016
+    100036: Box017
+    100038: Box018
+    100040: Box019
+    100042: Box021
+    100044: Box048
+    100046: Box049
+    100048: Box050
+    100050: Box051
+    100052: Box052
+    100054: Box053
+    100056: Box054
+    100058: Box055
+    100060: Box056
+    100062: Box057
+    100064: Box058
+    100066: Box059
+    100068: buttons006
+    100070: buttons007
+    100072: buttons008
+    100074: buttons009
+    100076: buttons010
+    100078: buttons011
+    100080: Coach001
+    100082: console
+    100084: console001
+    100086: couch low
+    100088: Cylinder005
+    100090: Cylinder006
+    100092: Cylinder007
+    100094: Cylinder008
+    100096: Cylinder009
+    100098: door010
+    100100: door011
+    100102: door012
+    100104: door013
+    100106: door014
+    100108: door019
+    100110: door020
+    100112: door021
+    100114: door022
+    100116: door023
+    100118: doors
+    100120: doors001
+    100122: floor
+    100124: forbed001
+    100126: Friger
+    100128: Friger001
+    100130: Group001
+    100132: handle1
+    100134: handle10
+    100136: handle2
+    100138: handle3
+    100140: handle4
+    100142: handle5
+    100144: handle6
+    100146: handle7
+    100148: handle8
+    100150: handle9
+    100152: Microwave001
+    100154: Object011
+    100156: Object012
+    100158: Object013
+    100160: Object014
+    100162: Object015
+    100164: Object016
+    100166: oven low
+    100168: Oven001
+    100170: sink bath001
+    100172: sink low poly
+    100174: sink001
+    100176: sink002
+    100178: table low
+    100180: table001
+    100182: tableStuff001
+    100184: tinihous
+    100186: top001
+    100188: TV
+    100190: TV001
+    100192: Wall
+    100194: Wall001
+    100196: Wardrobe
+    100198: wardrobe
+    100200: Wardrobe001
+    100202: Wardrobe002
+    100204: washing low
+    100206: WashingMachine001
+    100208: wc
+    100210: wc001
+    400000: bath
+    400002: bath001
+    400004: bath002
+    400006: bed low
+    400008: bed002
+    400010: bed003
+    400012: //RootNode
+    400014: bonus001
+    400016: Box006
+    400018: Box007
+    400020: Box008
+    400022: Box009
+    400024: Box010
+    400026: Box012
+    400028: Box013
+    400030: Box014
+    400032: Box015
+    400034: Box016
+    400036: Box017
+    400038: Box018
+    400040: Box019
+    400042: Box021
+    400044: Box048
+    400046: Box049
+    400048: Box050
+    400050: Box051
+    400052: Box052
+    400054: Box053
+    400056: Box054
+    400058: Box055
+    400060: Box056
+    400062: Box057
+    400064: Box058
+    400066: Box059
+    400068: buttons006
+    400070: buttons007
+    400072: buttons008
+    400074: buttons009
+    400076: buttons010
+    400078: buttons011
+    400080: Coach001
+    400082: console
+    400084: console001
+    400086: couch low
+    400088: Cylinder005
+    400090: Cylinder006
+    400092: Cylinder007
+    400094: Cylinder008
+    400096: Cylinder009
+    400098: door010
+    400100: door011
+    400102: door012
+    400104: door013
+    400106: door014
+    400108: door019
+    400110: door020
+    400112: door021
+    400114: door022
+    400116: door023
+    400118: doors
+    400120: doors001
+    400122: floor
+    400124: forbed001
+    400126: Friger
+    400128: Friger001
+    400130: Group001
+    400132: handle1
+    400134: handle10
+    400136: handle2
+    400138: handle3
+    400140: handle4
+    400142: handle5
+    400144: handle6
+    400146: handle7
+    400148: handle8
+    400150: handle9
+    400152: Microwave001
+    400154: Object011
+    400156: Object012
+    400158: Object013
+    400160: Object014
+    400162: Object015
+    400164: Object016
+    400166: oven low
+    400168: Oven001
+    400170: sink bath001
+    400172: sink low poly
+    400174: sink001
+    400176: sink002
+    400178: table low
+    400180: table001
+    400182: tableStuff001
+    400184: tinihous
+    400186: top001
+    400188: TV
+    400190: TV001
+    400192: Wall
+    400194: Wall001
+    400196: Wardrobe
+    400198: wardrobe
+    400200: Wardrobe001
+    400202: Wardrobe002
+    400204: washing low
+    400206: WashingMachine001
+    400208: wc
+    400210: wc001
+    2100000: No Name
+    2100002: corridor
+    2100004: tv
+    2100006: monitor
+    2100008: walls
+    2100010: sinkThing
+    2100012: red
+    2100014: friger
+    2100016: friger2
+    2100018: floor toilet
+    2100020: living room
+    2100022: sink
+    2100024: 14 - Default
+    2100026: 'Material #2626'
+    2100028: 19 - Default
+    2100030: glassMicrowave
+    2100032: 10 - Default
+    2100034: wall
+    2100036: wc floor
+    2100038: 'Material #2530'
+    2100040: 'Material #2517'
+    2100042: 'Material #2614'
+    2100044: 03 - Default
+    2100046: 'Material #906'
+    2100048: 11 - Default
+    2100050: 'Material #0'
+    2100052: 01 - glass
+    2100054: 'Material #2543'
+    2100056: 'Material #2516'
+    2300000: bath
+    2300002: bath002
+    2300004: bed low
+    2300006: bed003
+    2300008: Box006
+    2300010: Box007
+    2300012: Box008
+    2300014: Box009
+    2300016: Box010
+    2300018: Box012
+    2300020: Box013
+    2300022: Box014
+    2300024: Box015
+    2300026: Box016
+    2300028: Box017
+    2300030: Box018
+    2300032: Box019
+    2300034: Box021
+    2300036: Box048
+    2300038: Box049
+    2300040: Box050
+    2300042: Box051
+    2300044: Box052
+    2300046: Box053
+    2300048: Box054
+    2300050: Box055
+    2300052: Box056
+    2300054: Box057
+    2300056: Box058
+    2300058: Box059
+    2300060: buttons006
+    2300062: buttons007
+    2300064: buttons008
+    2300066: buttons009
+    2300068: buttons010
+    2300070: buttons011
+    2300072: console
+    2300074: console001
+    2300076: couch low
+    2300078: Cylinder005
+    2300080: Cylinder006
+    2300082: Cylinder007
+    2300084: Cylinder008
+    2300086: Cylinder009
+    2300088: door010
+    2300090: door011
+    2300092: door012
+    2300094: door013
+    2300096: door014
+    2300098: door019
+    2300100: door020
+    2300102: door021
+    2300104: door022
+    2300106: door023
+    2300108: forbed001
+    2300110: Friger
+    2300112: Friger001
+    2300114: handle1
+    2300116: handle10
+    2300118: handle2
+    2300120: handle3
+    2300122: handle4
+    2300124: handle5
+    2300126: handle6
+    2300128: handle7
+    2300130: handle8
+    2300132: handle9
+    2300134: Microwave001
+    2300136: Object011
+    2300138: Object012
+    2300140: Object013
+    2300142: Object014
+    2300144: Object015
+    2300146: Object016
+    2300148: oven low
+    2300150: sink bath001
+    2300152: sink low poly
+    2300154: sink001
+    2300156: sink002
+    2300158: table low
+    2300160: table001
+    2300162: TV
+    2300164: TV001
+    2300166: Wall
+    2300168: Wall001
+    2300170: Wardrobe
+    2300172: Wardrobe002
+    2300174: washing low
+    2300176: WashingMachine001
+    2300178: wc
+    2300180: wc001
+    2300182: //RootNode
+    3300000: bath
+    3300002: bath002
+    3300004: bed low
+    3300006: bed003
+    3300008: Box006
+    3300010: Box007
+    3300012: Box008
+    3300014: Box009
+    3300016: Box010
+    3300018: Box012
+    3300020: Box013
+    3300022: Box014
+    3300024: Box015
+    3300026: Box016
+    3300028: Box017
+    3300030: Box018
+    3300032: Box019
+    3300034: Box021
+    3300036: Box048
+    3300038: Box049
+    3300040: Box050
+    3300042: Box051
+    3300044: Box052
+    3300046: Box053
+    3300048: Box054
+    3300050: Box055
+    3300052: Box056
+    3300054: Box057
+    3300056: Box058
+    3300058: Box059
+    3300060: buttons006
+    3300062: buttons007
+    3300064: buttons008
+    3300066: buttons009
+    3300068: buttons010
+    3300070: buttons011
+    3300072: console
+    3300074: console001
+    3300076: couch low
+    3300078: Cylinder005
+    3300080: Cylinder006
+    3300082: Cylinder007
+    3300084: Cylinder008
+    3300086: Cylinder009
+    3300088: door010
+    3300090: door011
+    3300092: door012
+    3300094: door013
+    3300096: door014
+    3300098: door019
+    3300100: door020
+    3300102: door021
+    3300104: door022
+    3300106: door023
+    3300108: forbed001
+    3300110: Friger
+    3300112: Friger001
+    3300114: handle1
+    3300116: handle10
+    3300118: handle2
+    3300120: handle3
+    3300122: handle4
+    3300124: handle5
+    3300126: handle6
+    3300128: handle7
+    3300130: handle8
+    3300132: handle9
+    3300134: Microwave001
+    3300136: Object011
+    3300138: Object012
+    3300140: Object013
+    3300142: Object014
+    3300144: Object015
+    3300146: Object016
+    3300148: oven low
+    3300150: sink bath001
+    3300152: sink low poly
+    3300154: sink001
+    3300156: sink002
+    3300158: table low
+    3300160: table001
+    3300162: TV
+    3300164: TV001
+    3300166: Wall
+    3300168: Wall001
+    3300170: Wardrobe
+    3300172: Wardrobe002
+    3300174: washing low
+    3300176: WashingMachine001
+    3300178: wc
+    3300180: wc001
+    3300182: //RootNode
+    4300000: oven low
+    4300002: sink low poly
+    4300004: table low
+    4300006: TV
+    4300008: Wall
+    4300010: Object011
+    4300012: Wardrobe
+    4300014: washing low
+    4300016: wc
+    4300018: handle10
+    4300020: handle9
+    4300022: handle8
+    4300024: handle7
+    4300026: handle6
+    4300028: handle5
+    4300030: handle4
+    4300032: handle3
+    4300034: handle2
+    4300036: handle1
+    4300038: Friger
+    4300040: Box006
+    4300042: Box007
+    4300044: Box008
+    4300046: Box009
+    4300048: Box010
+    4300050: door019
+    4300052: door020
+    4300054: door021
+    4300056: door022
+    4300058: door023
+    4300060: Cylinder009
+    4300062: couch low
+    4300064: console
+    4300066: Box059
+    4300068: Box058
+    4300070: Box057
+    4300072: Box056
+    4300074: Box054
+    4300076: Box055
+    4300078: Box052
+    4300080: Box053
+    4300082: Box051
+    4300084: Box050
+    4300086: Box049
+    4300088: Box048
+    4300090: Box021
+    4300092: bed low
+    4300094: bath
+    4300096: Box012
+    4300098: wc001
+    4300100: WashingMachine001
+    4300102: Wardrobe002
+    4300104: Object012
+    4300106: Wall001
+    4300108: TV001
+    4300110: sink001
+    4300112: Microwave001
+    4300114: table001
+    4300116: sink002
+    4300118: buttons006
+    4300120: buttons007
+    4300122: buttons008
+    4300124: buttons009
+    4300126: buttons010
+    4300128: Box013
+    4300130: Cylinder005
+    4300132: Cylinder006
+    4300134: Cylinder007
+    4300136: Cylinder008
+    4300138: buttons011
+    4300140: Friger001
+    4300142: door010
+    4300144: door011
+    4300146: door012
+    4300148: door013
+    4300150: door014
+    4300152: console001
+    4300154: Object013
+    4300156: Object014
+    4300158: Object015
+    4300160: Object016
+    4300162: Box014
+    4300164: Box015
+    4300166: Box016
+    4300168: Box017
+    4300170: bed003
+    4300172: Box018
+    4300174: Box019
+    4300176: forbed001
+    4300178: bath002
+    4300180: sink bath001
+    6400000: //RootNode
+    7400000: houseTwo
+    7400002: Idle
+    7400004: Take 001 (1)
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sinkThing
+    second: {fileID: 2100000, guid: fec55637d0b56414d8f89464a911d226, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 001 (1)
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
